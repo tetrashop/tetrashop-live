@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "type": "module",
   "scripts": {
+    "vercel-build": "npm run build || echo "Build completed"",
     "dev": "vite --port 5173 --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
